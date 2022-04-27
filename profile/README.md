@@ -27,8 +27,6 @@ Worker Tools also maintains a number of (web-) services:
 - ⚙️ [__workers.js.org__][wkrs] --- Educational site about the state of Worker Environments.
 - 🦕 [__ghuc.cc__][ghuc] --- Import modules directly from GitHub into Deno with a familiar API. 
 
-*[SSE]: Server Sent Events
-
 [wkrs]: https://workers.js.org
 [cfws]: https://workers.cloudflare.com
 [dndp]: https://deno.com
