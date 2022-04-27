@@ -2,6 +2,12 @@
 
 Worker Tools are a collection of TypeScript libraries for writing web servers in [Worker Environments][1] such as [Cloudflare Workers][4] and [Deno Deploy][5]. 
 
+***
+
+___Work In Progress___
+
+***
+
 [1]: https://workers.js.org/
 [2]: https://www.npmjs.com/org/worker-tools
 [3]: https://github.com/worker-tools
