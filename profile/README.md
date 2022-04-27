@@ -40,7 +40,7 @@ Worker Tools can be used independently or as a web framework via [__Shed__](http
 __Deno__ users can import Worker Tools directly from GitHub as they are written in TypeScript with fully qualified import specifiers:
 
 ```js
-import { WorkerRouter } from 'https://ghuc.cc/worker-tools/shed/index.ts'
+import * as shed from 'https://ghuc.cc/worker-tools/shed/index.ts'
 ```
 
 For __other environments__ such as module bundlers, webpack or esbuild, Worker Tools are distributed as node-ified modules that can be installed via __npm__ and behave like regular npm modules
