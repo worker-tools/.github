@@ -1,13 +1,6 @@
 # Worker Tools
 
-Worker Tools are a collection of TypeScript libraries for writing web servers in [Worker Environments][1] such as [Cloudflare Workers][4] and [Deno Deploy][5]. 
-
-[1]: https://workers.js.org/
-[2]: https://www.npmjs.com/org/worker-tools
-[3]: https://github.com/worker-tools
-[4]: https://workers.cloudflare.com
-[5]: https://deno.com
-
+Worker Tools are a collection of TypeScript libraries for writing web servers in [Worker Environments][wkrs] such as [Cloudflare Workers][cfws] and [Deno Deploy][dndp]. 
 
 ## Tools
 - 🧭 [__Worker Router__](https://github.com/worker-tools/router) --- Complete routing solution that works across CF Workers, Deno and Service Workers
@@ -30,6 +23,20 @@ Worker Tools also includes a number of polyfills that help bridge the gap betwee
 - 📍 [__Location Polyfill__](https://github.com/worker-tools/location-polyfill) --- A `Location` polyfill for Cloudflare Workers.
 - 🦕 [__Deno Fetch Event Adapter__](https://github.com/worker-tools/deno-fetch-event-adapter) --- Dispatches global `fetch` events using Deno’s native HTTP server.
 
+Worker Tools also maintains a number of (web-) services:
+- ⚙️ [__workers.js.org__][wkrs] --- Educational site about the state of Worker Environments.
+- 🦕 [__ghuc.cc__][ghuc] --- Import modules directly from GitHub into Deno with a familiar API. 
+
+*[SSE]: Server Sent Events
+
+[wkrs]: https://workers.js.org
+[cfws]: https://workers.cloudflare.com
+[dndp]: https://deno.com
+[ghuc]: https://ghuc.cc
+
+***
+
+Worker Tools can be used independently or as a web framework via [__Shed__](https://github.com/worker-tools/shed). 
 
 ## How to Use
 __Deno__ users can import Worker Tools directly from GitHub as they are written in TypeScript with fully qualified import specifiers:
