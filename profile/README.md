@@ -18,9 +18,9 @@ Worker Tools are a collection of TypeScript libraries for writing web servers in
 <!-- - ⏱ [__Resolvable Promise__][resolvable-promise] --- A promise that is resolvable or rejectable after it was created. -->
 
 Worker Tools also includes a number of polyfills that help bridge the gap between different Worker Runtimes:
-- ✏️ [__HTML Rewriter__](./html-rewriter) --- Cloudflare's HTML Rewriter for use in Deno, browsers, etc...
-- 📍 [__Location Polyfill__](./location-polyfill) --- A `Location` polyfill for Cloudflare Workers.
-- 🦕 [__Deno Fetch Event Adapter__](./deno-fetch-event-adapter) --- Dispatches global `fetch` events using Deno’s native HTTP server.
+- ✏️ [__HTML Rewriter__][html-rewriter] --- Cloudflare's HTML Rewriter for use in Deno, browsers, etc...
+- 📍 [__Location Polyfill__][location-polyfill] --- A `Location` polyfill for Cloudflare Workers.
+- 🦕 [__Deno Fetch Event Adapter__][deno-fetch-event-adapter] --- Dispatches global `fetch` events using Deno’s native HTTP server.
 
 Worker Tools also maintains a number of (web-) services:
 - ⚙️ [__workers.js.org__][wkrs] --- Educational site about the state of Worker Runtimes.
