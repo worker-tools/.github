@@ -1,6 +1,6 @@
 # Worker Tools
 
-Worker Tools are a collection of TypeScript libraries for writing web servers in [Worker Environments][wkrs] such as [Cloudflare Workers][cfws] and [Deno Deploy][dndp]. 
+Worker Tools are a collection of TypeScript libraries for writing web servers in [Worker Runtimes][wkrs] such as [Cloudflare Workers][cfws] and [Deno Deploy][dndp]. 
 
 ## Tools
 - 🧭 [__Worker Router__][router] --- Complete routing solution that works across CF Workers, Deno and Service Workers
@@ -64,7 +64,7 @@ __Deno__ users can import Worker Tools directly from GitHub as they are written 
 import * as shed from 'https://ghuc.cc/worker-tools/shed/index.ts'
 ```
 
-For __other environments__ such as module bundlers, webpack or esbuild, Worker Tools are distributed as node-ified modules that can be installed via __npm__ and behave like regular npm modules
+For __other runtimes__ such as module bundlers, webpack or esbuild, Worker Tools are distributed as node-ified modules that can be installed via __npm__ and behave like regular npm modules
 
 ```sh
 npm install @worker-tools/shed
