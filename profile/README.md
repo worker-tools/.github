@@ -6,11 +6,12 @@ Worker Tools are a collection of TypeScript libraries for writing web servers in
 - 🧭 [__Worker Router__][router] --- Complete routing solution that works across CF Workers, Deno and Service Workers
 - 🔋 [__Worker Middleware__][middleware] --- A suite of standalone HTTP server-side middleware with TypeScript support
 - 📄 [__Worker HTML__][html] --- HTML templating and streaming response library
-- 📦 [__Storage Area__][kv-storage] --- Key-Value Storage abstraction for [Cloudflare's KV][cloudflare-kv-storage], [Deno][deno-kv-storage] and browsers.
+- 📦 [__Storage Area__][kv-storage] --- Key-value store abstraction across [Cloudflare KV][cloudflare-kv-storage], [Deno][deno-kv-storage] and browsers.
 - 🆗 [__Response Creators__][response-creators] --- Factory functions for responses with pre-filled status and status text
 - 🎏 [__Stream Response__][stream-response] --- Use async generators to build streaming responses for SSE, etc...
 - 🥏 [__JSON Fetch__][json-fetch] --- Drop-in replacements for Fetch API classes with first class support for JSON.
-- 🦑 [__JSON Stream__][json-stream] --- Utilities for working with streaming JSON.
+- 🦑 [__JSON Stream__][json-stream] --- Streaming JSON parser/stingifier with 1st class support for WHATWG/web streams.
+- 🧱 [__Structured JSON__][structured-json] --- Stringify and parse JavaScript values according to Structured Clone Algorithm
 - 🍪 [__Request Cookie Store__][request-cookie-store] --- An implementation of the Cookie Store API for use in request handlers.
 - ⏱ [__Extendable Promise__][extendable-promise] --- A promise that can be delayed/extended via repeated calls to `waitUntil`.
 <!-- - 🍪 [__Signed Cookie Store__][signed-cookie-store] --- An implementation of the Cookie Store API for use in request handlers. -->
@@ -25,7 +26,6 @@ Worker Tools also includes a number of polyfills that help bridge the gap betwee
 Worker Tools also maintains a number of (web-) services:
 - ⚙️ [__workers.js.org__][wkrs] --- Educational site about the state of Worker Runtimes.
 - 🦕 [__ghuc.cc__][ghuc] --- Import modules directly from GitHub into Deno with a familiar API. 
-<!-- - 🗞 [__worker-news.deno.dev__][news] --- A drop-in replacement for Hacker News, built entirely with Worker Tools. -->
 
 [router]: https://github.com/worker-tools/router
 [middleware]: https://github.com/worker-tools/middleware
@@ -45,6 +45,7 @@ Worker Tools also maintains a number of (web-) services:
 [signed-cookie-store]: https://github.com/worker-tools/signed-cookie-store
 [encrypted-cookie-store]: https://github.com/worker-tools/encrypted-cookie-store
 [resolvable-promise]: https://github.com/worker-tools/resolvable-promise
+[structured-json]: https://github.com/worker-tools/structured-json
 
 *[SSE]: Server Sent Events
 
